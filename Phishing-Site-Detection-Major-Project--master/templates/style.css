@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img1.png);
+    /* background-image: cover 100% 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+}
+
+form {
+    background-color: rgb(223, 215, 215);
+}
+
+input#url {
+    background-color: white;
+}
+
+.md-form label {
+    padding-left: 70px;
+}
+
+
+.footer-bottom {
+    width: 100%;
+    height: 2%;
+    margin: auto;
+    background: rgb(70, 73, 245);
+    padding: px;
+    font-family: aria;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-bottom p a {
+    color: rgb(10, 1, 1);
+}
+
+.footer-bottom p a:hover {
+    color: #e7eb2b;
+}
